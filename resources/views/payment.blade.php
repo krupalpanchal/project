@@ -19,7 +19,7 @@
                     {{ session('error') }}
                 </div>
             @endif
-            <h1>Hello change</h1>
+            <h1>Hello change dev</h1>
             <form action="{{ route('payment.checkout') }}" method="POST" class="space-y-4">
                 @csrf
                 <div>
