@@ -20,6 +20,7 @@
                 </div>
             @endif
             <h1>Hello change dev</h1>
+            <h2> test ci/cd working or not</h2>
             <form action="{{ route('payment.checkout') }}" method="POST" class="space-y-4">
                 @csrf
                 <div>
